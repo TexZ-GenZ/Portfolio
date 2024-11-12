@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skillset from './components/Skillset';
@@ -47,6 +48,7 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      <Analytics />
     </div>
   );
 }
