@@ -36,7 +36,7 @@ const Skillset = () => {
     {
       icon: Database,
       title: "Backend Development",
-      skills: ["Node.js", "Express", "MongoDB", "REST APIs"]
+      skills: ["Node.js", "Express", "MongoDB", "REST APIs", "FastAPI"]
     },
     {
       icon: Brain,
