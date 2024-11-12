@@ -41,7 +41,7 @@ const Skillset = () => {
     {
       icon: Brain,
       title: "AI & ML",
-      skills: ["TensorFlow", "Deep Learning", "OpenCV", "Computer Vision"]
+      skills: ["TensorFlow", "Deep Learning", "OpenCV", "PyTorch"]
     },
     {
       icon: Smartphone,
@@ -51,7 +51,7 @@ const Skillset = () => {
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "CI/CD"]
+      skills: ["Amazon AWS", "Google Cloud", "Vercel"]
     },
     {
       icon: Terminal,

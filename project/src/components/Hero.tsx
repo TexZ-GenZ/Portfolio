@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
           </h1>
           <p className="text-gray-400 text-sm">
-            IIIT-BH CSE '27 | MERN | Next.js | Deep Learning
+            IIIT-BH CSE 27' | MERN | Next.js | React Native | OpenCV  | Tensorflow  
           </p>
           
           <div className="mt-16">
@@ -37,7 +37,7 @@ const Hero = () => {
             
             <p className="text-gray-300 max-w-xl">
               Passionate about building scalable applications and exploring new technologies.
-              Experienced in MERN stack, Next.js, and Deep Learning. Always eager to learn and grow.
+              Experienced in MERN stack, Next.js, Deep Learning, OpenCV and React Native . Always eager to learn and grow.
             </p>
           </div>
         </motion.div>

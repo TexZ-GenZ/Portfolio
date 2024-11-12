@@ -17,12 +17,12 @@ const SocialLink = ({ href, icon: Icon, label }: any) => (
 
 const Contact = () => {
   const socials = [
-    { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/yourusername", label: "Twitter" },
-    { icon: Instagram, href: "https://instagram.com/yourusername", label: "Instagram" },
-    { icon: Globe, href: "https://yourportfolio.com", label: "Portfolio" },
-    { icon: Mail, href: "mailto:ibrhaimmemon930@gmail.com", label: "Email" }
+    { icon: Github, href: "https://github.com/TexZ-GenZ/", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/priyanshusamal/", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/PriyanshuorTexz", label: "Twitter" },
+    { icon: Instagram, href: "https://www.instagram.com/_priyanshu_samal/", label: "Instagram" },
+    { icon: Globe, href: "https://priyanshu-samal.vercel.app/", label: "Portfolio" },
+    { icon: Mail, href: "mailto:priyanshusamal21@gmail.com", label: "Email" }
   ];
 
   return (
