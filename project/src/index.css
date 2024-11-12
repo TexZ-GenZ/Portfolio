@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0A041C] text-white font-['Space_Grotesk'];
+  }
+}
+
+.glow {
+  filter: drop-shadow(0 0 20px rgba(147, 51, 234, 0.5));
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #fff 0%, #9333EA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-glow {
+  background: radial-gradient(circle at center, rgba(147, 51, 234, 0.2) 0%, transparent 70%);
+}
