@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center relative overflow-hidden mt-24 md:mt-0">
       <div className="hero-glow absolute inset-0 z-0" />
-      <div className="container mx-auto px-6 z-10 flex flex-col md:flex-row items-center justify-between">
+      <div className="container mx-auto px-6 z-10 flex flex-col md:flex-row items-center justify-between space-y-12 md:space-y-0">
         <motion.div 
           className="max-w-2xl"
           initial={{ opacity: 0, x: -50 }}
@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="text-lg mb-2">
             Hello! I Am <span className="text-purple-500">Priyanshu Samal</span>
           </p>
-          <h1 className="text-5xl font-bold mb-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">
             A Full Stack Developer{' '}
             <div className="inline-block">
               who builds amazing
@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
           
           <div className="mt-16">
-            <h2 className="text-4xl font-bold mb-2">Backend Developer Intern</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-2">Backend Developer Intern</h2>
             <p className="text-lg mb-8">
               Currently at{' '}
               <a href="#" className="text-purple-500 hover:underline">Aveti Learning</a>
@@ -43,7 +43,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div 
-          className="relative mt-12 md:mt-0"
+          className="relative"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
